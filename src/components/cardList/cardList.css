@@ -1,0 +1,29 @@
+.card-list {
+  padding: 3rem;
+  /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background-color: white;
+  min-height: 150px;
+  position: relative;
+}
+
+.card-list .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-list .icon-todo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: auto;
+}
